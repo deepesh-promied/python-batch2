@@ -1,0 +1,7 @@
+Write a program to input two numbers from the user and print their sum.
+Write a program to input user's name and print a hello message with user's name. 
+Write a program to find greater of three numbers.
+Write a program to print all numbers divisible by 7 between 1000 and 2000(inlcusive)
+Write a program to print all numbers divisible by 5 and 7 in the given range by user.
+Write a program to print all prime numbers between the entered range by the user.
+Write a program to calculate area of a traingle. User needs to enter all three sides as input. sCheck if the sides entered by user are valid or not.
