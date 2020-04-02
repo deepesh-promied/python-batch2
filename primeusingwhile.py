@@ -18,3 +18,4 @@ while(ntc > 1):
         print("{} is not a prime number".format(ntc))
     
     ntc = int(input('Enter the next Number '))
+1

@@ -1,0 +1,46 @@
+Write a program to print sum of all the numbers up to n. Value of n is entered by user.
+Write a program to print all the factors of a given number.
+Write a program to print following patterns:
+Pattern 1:
+*
+* *
+* * *
+* * * *
+* * * * *
+
+Pattern 2:
+* * * * *
+* * * *
+* * *
+* *
+*
+
+Pattern 3:
+1
+1 2
+1 2 3
+1 2 3 4
+1 2 3 4 5
+
+Pattern 4:
+1
+2 2
+3 3 3
+4 4 4 4
+5 5 5 5 5
+
+Pattern 5:
+*
+* +
+* + *
+* + * +
+* + * + *
+
+Pattern 6:
+*
++ +
+* * *
++ + + +
+* * * * *
+
+
