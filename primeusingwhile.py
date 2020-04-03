@@ -7,7 +7,7 @@ while(ntc > 1):
     #       flag = 1
     
     i = 2
-    while(i<int(ntc/2)):
+    while(i<=int(ntc/2)):
         if ntc%i==0:
             flag =1
         i = i+1

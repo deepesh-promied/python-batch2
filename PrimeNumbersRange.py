@@ -9,7 +9,7 @@ if(lowerlimit > 1 and upperlimit>lowerlimit):
         flag = 0
         #loop to check every value in the range
 
-        for i in range(2,int(ntc/2)): 
+        for i in range(2,int(ntc/2)+1): 
             if ntc%i == 0:
                 flag = 1
                 break

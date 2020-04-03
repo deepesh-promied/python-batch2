@@ -5,7 +5,7 @@ ntc = int(input("Enter the number: "))
 flag = 0
 
 if(ntc>1):
-    for i in range(2,int(ntc/2)):
+    for i in range(2,int(ntc/2)+1):
         if ntc%i == 0:
             flag = 1
             break 
