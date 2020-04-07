@@ -9,3 +9,5 @@ i = -1
 while(i>=-len(lst)):
     print(lst[i])
     i = i-1    
+
+lst = [10,20,30,40,50]
