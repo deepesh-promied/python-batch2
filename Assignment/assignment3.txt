@@ -1,0 +1,8 @@
+Command Line Arguments Assignment
+
+1. Write a Program to print greatest of all the values entered as command line arguments
+
+2. Write a program to calculate area of a traingle, where all three sides are entered as command line arguments. Before calculating, check if the sides entered are 3 and are valid sides. 
+   Rule: In traingle, sum of any two sides is always greater than the third one. 
+
+*** Matrix Multiplication *** is still due. (Not a command line assignment)
