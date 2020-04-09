@@ -6,3 +6,5 @@ Command Line Arguments Assignment
    Rule: In traingle, sum of any two sides is always greater than the third one. 
 
 *** Matrix Multiplication *** is still due. (Not a command line assignment)
+
+3. Write a Program to print fibonacci series. 
