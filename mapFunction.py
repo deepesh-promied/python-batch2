@@ -1,4 +1,5 @@
 #map Function
+#this is the file for map function. We also practiced custom map function which is in the same repository
 def doubleF(x):
     return 2*x
 
