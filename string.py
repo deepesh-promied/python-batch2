@@ -38,11 +38,10 @@ print(strdemo3.lstrip(' eD') + 'test')
 print('www.wetransfer.com'.lstrip('w.e'))
 
 # For Remaining inbuilt Methods check:
-# https://docs.python.org/3/library/stdtypes.html#string-methods
+# https://docs.python.org/3/library/stdtypes.html#string-methods (5 Methods)
 
 strdemo4 = """This is a demo for 
 multiline string
 This is the third line 
 this is the fourth line"""
-
 print(strdemo4)
