@@ -15,9 +15,9 @@ def calcCommision(lsales,nsales,isales):
         role = 'Star Performer'
     return [comm,role]
 
-x = calcCommision(5000,2000,3000)
-print(x)
-y = calcCommision(50000,0,0)
-print(y)
-
-print(calcCommision(8000,200,0))
+if __name__ == '__main__':
+    x = calcCommision(5000,2000,3000)
+    print(x)
+    y = calcCommision(50000,0,0)
+    print(y)
+    print(calcCommision(8000,200,0))
