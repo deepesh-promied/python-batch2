@@ -11,6 +11,5 @@ def vaFunction1(x,y,*b,**c):
     print(b)
     print(c)
 
-
 vaFunction(10,20,30,40,50)
 vaFunction1(10,20,30,40,50,name='saransh',batch='Python')
