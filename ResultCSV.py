@@ -3,6 +3,7 @@
 fcsv = open('CSVFileDemo.csv','r')
 frcsv = open('resultCSV.csv','w')
 studentData=[]
+
 for line in fcsv:
     data = line.strip().split(',')
     perc = sum(list(map(int,data[1:])))/150*100
@@ -25,4 +26,5 @@ for i,v in enumerate(studentData):
 
 fcsv.close()
 frcsv.close()
+
 #print(f"Topper is {studentData[maxp][0]} with {maxv} percentage")
