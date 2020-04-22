@@ -1,3 +1,4 @@
+import sys
 filep = open('StudentsData.csv','r')
 
 gender = {}
@@ -27,21 +28,27 @@ for line in filep:
         #print(','.join(data),file=cat[data[1]][1])
         cat[data[1]][1].write(','.join(data)+'\n')
     else:
-        fp = open(data[1] + '.csv', 'w')
+        fp = open('./summary/' + data[1] + '.csv', 'w')
         cat[data[1]] = [1,fp]
         #cat[data[1]][1]
         #print(','.join(data),file=cat[data[1]][1])
         cat[data[1]][1].write(','.join(data)+'\n')
-        
-for i,v in gender.items():
-    print(i,v)
 
-print('-'*20)
+#fp = open('./summary/summary.txt','w')
+fp = sys.stdout
+for i,v in gender.items():
+    print(i,v,file=fp)
+
+print('-'*20,file=fp)
 
 for i,v in cat.items():
-    print(i,v[0])
+    print(i,v[0],file=fp)
+    v[1].close()
     
-print('-'*20)
+print('-'*20,file=fp)
 
 for i,v in college.items():
-    print(i,v)
+    print(i,v,file=fp)
+
+fp.close()
+
