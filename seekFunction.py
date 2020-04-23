@@ -17,3 +17,4 @@ print(x)
 fp.seek(-5,2)
 x = fp.read()
 print(x)
+
