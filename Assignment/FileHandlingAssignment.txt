@@ -1,2 +1,4 @@
-Write a program to calculate percentage of every student and create a sepeate file of students who have failed in sub1,sub2,sub3,sub4,sub5,total(more than 1 subject)
+Write a program to calculate percentage of every student and create a 
+sepeate file of students who have failed in sub1,sub2,sub3,sub4,sub5,total(more than 1 subject)
+
 Write a program to find topper of individual subjects and save there records in a topperfile.
