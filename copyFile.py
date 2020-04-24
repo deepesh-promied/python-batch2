@@ -1,5 +1,5 @@
 #Program to Copy a File
-from sys import argv
+from sys import argv # you won't have to explicitly mention everytime while calling the function 'sys.argv'
 
 if len(argv)==3:
     fsrc = open(argv[1],'rb')
