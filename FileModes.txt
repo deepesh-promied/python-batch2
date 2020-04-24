@@ -1,0 +1,23 @@
+Text Mode
+
+r = read
+w = write
+a = append
+x = exclusive (Similar to write, only if file does not exist)
+r+ = read + write
+w+ = write + read
+a+ =  append + read
+x+ = Exclusive Mode + Read Operation
+
+-----------------------------------------------
+
+Binary Mode
+
+rb = read
+wb = write
+ab = append
+xb = exclusive (Similar to write, only if file does not exist)
+rb+ = read + write
+wb+ = write + read
+ab+ =  append + read
+xb+ = Exclusive Mode + Read Operation
