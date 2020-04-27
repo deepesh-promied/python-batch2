@@ -11,9 +11,10 @@ Then, the output of the program should be:
 [[0, 0, 0, 0, 0], [0, 1, 2, 3, 4], [0, 2, 4, 6, 8]]
 '''
 
-row = int(input("Enter rows: "))
-column = int(input("Enter columns: "))
 
+
+#Commenting Saransh' Code
+''' 
 row_lst = []
 column_lst = []
 
@@ -32,5 +33,15 @@ for k in row_lst:
         new_lst.append(k*l)
         final_lst.append(new_lst)
 print(final_lst)
-
+'''
+if __name__ == '__main__':
+    row = int(input("Enter rows: "))
+    column = int(input("Enter columns: "))
+    matrix = []
+    for i in range(row):
+        rlist = []
+        for j in range(column):
+            rlist.append(i*j)
+        matrix.append(rlist)
+    print(matrix)
 
