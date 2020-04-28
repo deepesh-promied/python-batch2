@@ -10,14 +10,19 @@ Suppose the following inputs are given to the program:
 Then, the output of the program should be:
 [[0, 0, 0, 0, 0], [0, 1, 2, 3, 4], [0, 2, 4, 6, 8]]
 '''
-
+def printMatrix(lst):
+    for i in lst:
+        for j in i:
+            print (j,end= ' ')
+        print()
 
 
 #Commenting Saransh' Code
 ''' 
 row_lst = []
 column_lst = []
-
+row = int(input("Enter rows: "))
+column = int(input("Enter columns: "))
 for i in range(0,row):
     row_lst.append(i)
 
@@ -35,13 +40,13 @@ for k in row_lst:
 print(final_lst)
 '''
 if __name__ == '__main__':
-    row = int(input("Enter rows: "))
-    column = int(input("Enter columns: "))
+    row = int(input("Enter rows: ")) #3
+    column = int(input("Enter columns: ")) #5
     matrix = []
     for i in range(row):
         rlist = []
         for j in range(column):
             rlist.append(i*j)
         matrix.append(rlist)
-    print(matrix)
+    printMatrix(matrix)
 
