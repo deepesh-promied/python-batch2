@@ -6,4 +6,3 @@ for val in lst:
 
 for i in range(0,len(lst)):
     print(lst[i])
-

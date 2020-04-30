@@ -4,18 +4,33 @@ fp.seek(10) #(10,0)
 fp.seek(10,1) #Current Position
 fp.seek(-10,2) #From End of File
 '''
-fp = open('filePractice.txt','rb')
+with open ('.\Assignment\Assignment.txt','rb') as fp:
 
-fp.seek(2)
-x = fp.read()
-print(fp.tell())
+<<<<<<< HEAD
+    fp.seek(2)
+    x = fp.read(10)
+    print(x)
 
-fp.seek(-5,1)
-print(fp.tell())
-x = fp.read()
-print(x)
+    fp.seek(-5,1)
+    x = fp.read(10)
+    print(x)
 
+<<<<<<< HEAD
 fp.seek(-5,2)
 x = fp.read()
 print(x)
 
+=======
+    fp.seek(2)
+    x = fp.read()
+    print(fp.tell())
+
+    fp.seek(-5,1)
+    print(fp.tell())
+    x = fp.read()
+    print(x)
+
+    fp.seek(-5,2)
+    x = fp.read(15)
+    print(x)
+>>>>>>> 865ae305c9d3387951c1d81cb5b2abc230c22957
