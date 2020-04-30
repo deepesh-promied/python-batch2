@@ -1,0 +1,22 @@
+IP Address 
+PORT Number
+Domain Names
+
+www.google.com -- 192.168.125.165
+
+DNS (Domain Name Server)
+
+Port No. 
+
+HTTP --- HTTP Server --- 80
+FTP Server -- 20 / 21 (File Transfer Protocol)
+SMTP -- 25 (Simple Mail Transfer Protocol)
+POP3 110 (Post Office Protocol)
+
+
+http: Hyper text Transfer Protocol
+> 1024
+
+API -- Application Programming Interface
+
+-- Algo Trading  | High Frequency Trade 

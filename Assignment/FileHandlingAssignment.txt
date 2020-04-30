@@ -1,3 +1,9 @@
+<<<<<<< HEAD
+Write a program to calculate percentage of every student and create a 
+sepeate file of students who have failed in sub1,sub2,sub3,sub4,sub5,total(more than 1 subject)
+
+Write a program to find topper of individual subjects and save there records in a topperfile.
+=======
 Problem1:
 Write a program to calculate percentage of every student and create a sepeate file of students who have failed in sub1,sub2,sub3,sub4,sub5,total(more than 1 subject)
 
@@ -9,3 +15,4 @@ Write a program to read all the files mentioned in masterfile.txt and combine th
 Note the current files have mixed records for male and female students.
 Data Folder: StudentRecord in Assignment Directory.
 (Use Context Management)
+>>>>>>> 98bae353b794ac4e06729c81760e63895de6f3a7
