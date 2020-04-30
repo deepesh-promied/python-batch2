@@ -89,9 +89,7 @@ for line in fp:
 for v in maxd:
     for v1 in v: 
         top.write(v1)
-    print('__'*20,file=top)
-
-    
+    print('----'*20,file=top)
 
 fp.close()
 fail.close()
@@ -99,5 +97,4 @@ pas.close()
 top.close()
 
 for v in fout:
-    v.close()
-    
+    v.close()    
