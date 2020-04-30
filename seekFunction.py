@@ -8,9 +8,10 @@ fp = open('filePractice.txt','rb')
 
 fp.seek(2)
 x = fp.read()
-print(x)
+print(fp.tell())
 
 fp.seek(-5,1)
+print(fp.tell())
 x = fp.read()
 print(x)
 
