@@ -15,6 +15,12 @@ with open ('.\Assignment\Assignment.txt','rb') as fp:
     x = fp.read(10)
     print(x)
 
+<<<<<<< HEAD
+fp.seek(-5,2)
+x = fp.read()
+print(x)
+
+=======
     fp.seek(2)
     x = fp.read()
     print(fp.tell())
@@ -27,3 +33,4 @@ with open ('.\Assignment\Assignment.txt','rb') as fp:
     fp.seek(-5,2)
     x = fp.read(15)
     print(x)
+>>>>>>> 865ae305c9d3387951c1d81cb5b2abc230c22957
