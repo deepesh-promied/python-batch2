@@ -1,0 +1,6 @@
+<<<<<<< HEAD
+This is a demo text
+=======
+Hi
+This is the first file created to practice file handling programs.
+>>>>>>> 998cf68b1119d9078b06fbc5e37825107625148e
