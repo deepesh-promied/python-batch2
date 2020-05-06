@@ -1,9 +1,14 @@
+#def getM(st):
+#    return st.getMarks()
+
 class Student:
+    totalStudents = 0
     def __init__(self,name='',marks=0,subject='',gender='Female'):
         self.name = name
         self.gender = gender
         self.marks = marks
         self.subject = subject
+        Student.totalStudents +=1
     
     # Getter and Setter for name
     def getName(self):
@@ -44,7 +49,13 @@ with open('./Data/File1.csv','r') as fp:
 
 print(len(lstStudent))
 
-for i in range(0,50):
-    print(lstStudent[i].getName())
+for i in range(0,10):
+    print(lstStudent[i].getName(),lstStudent[i].getMarks())
 
-lstStudent.sort(key=self.getMarks())
+print('-'*12)
+
+#lstStudent.sort(key=getM)
+lstStudent.sort(key=Student.getMarks)
+
+for i in range(0,10):
+    print(Student.getName(lstStudent[i]),Student.getMarks(lstStudent[i]))
