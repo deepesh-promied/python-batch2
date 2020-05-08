@@ -10,7 +10,7 @@ class Vehicle:
 
 class Car(Vehicle):
     def __init__(self,tyre):
-        super().__init__(tyre)   
+        super().__init__(tyre)
 
 class Bus(Vehicle):
     def __init__(self,tyre):
