@@ -38,6 +38,7 @@ class Bus(Vehicle):
         super().__init__()
     
     #Function Overriding
+    
     '''
     def getTyre(self,spare):
         return self.tyre+spare #Including extra wheel
