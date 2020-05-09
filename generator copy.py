@@ -28,4 +28,5 @@ def readStud(sub):
                 yield x[0]
 
 print(list(readStud('Chemistry')))
+
 '''
