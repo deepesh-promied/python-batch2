@@ -1,0 +1,24 @@
+-- Excellent coding skills Python with relevant ML libraries
+-- Understanding of Machine Learning techniques: Regression, Classification, Clustering, Neural Networks,
+-- Experience with multiple deep learning frameworks TensorFlow, PyTorch
+
+Secondary:
+-- Strong experience with distributed storage and big data computing technology, such as AWS
+Live Coding
+
+	Statistical Learning:
+	https://www.edx.org/course/statistical-learning
+	
+	Machine Learning Course:
+	https://www.youtube.com/watch?v=PySo_6S4ZAg
+
+	Python Research:
+	https://www.edx.org/course/using-python-for-research
+
+
+
+Algorithms:
+https://www.edx.org/course/algorithms-design-and-analysis
+https://www.edx.org/course/algorithms-design-and-analysis-part-2-2
+
+Live Coding
