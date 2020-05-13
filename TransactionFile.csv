@@ -1,0 +1,10 @@
+1,Deposit,0,1001,1500
+2,Withdraw,1002,0,2500
+3,Transfer,1002,1003,6200
+4,Weposit,0,1005,4500
+5,Transfer,1003,1005,25
+6,Deposit,0,1006,1500
+7,Withdraw,1005,0,5200
+8,Transfer,1004,1005,-52
+9,Transfer,1003,1004,2500
+10,Deposit,0,1002,1400
