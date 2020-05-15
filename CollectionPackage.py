@@ -34,3 +34,5 @@ tup6 = Student(**di) # Creating Named Tuple from Dictionary
 
 print(tup5)
 print(tup6)
+
+# Assignment Try _asdict(self) method.
