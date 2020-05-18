@@ -1,0 +1,11 @@
+Pending Topics:
+1. Numpy
+2. Pandas
+3. Plot | Matplotlip | Seaborn
+4. Unit Testing | Debugging
+5. Decorators
+
+Revisit:
+List Comprehension
+Recursion
+Matrix Multiplication
